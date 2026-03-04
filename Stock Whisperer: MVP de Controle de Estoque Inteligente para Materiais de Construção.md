@@ -1,73 +1,50 @@
-# Welcome to your Lovable project
+# Stock Whisperer
 
-## Project info
+MVP de **Controle de Estoque Inteligente** para materiais de construção.  
+Transformei um desafio de vaga (low-level + IA) em um produto real e funcional.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+![Stock Whisperer Dashboard Preview](https://via.placeholder.com/800x400?text=Dashboard+Preview)  
+*(Adicione um print real da tela principal aqui depois – tira com Print Screen ou Loom e sobe na pasta public/ ou usa link externo)*
 
-## How can I edit this code?
+## O que é isso?
 
-There are several ways of editing your application.
+Peguei uma vaga de desenvolvedor com foco em low-level e inteligência artificial para setor de materiais de construção. Analisei o problema real da empresa (controle de estoque caótico, sem previsões, perdas por falta/excesso) e criei este MVP completo:
 
-**Use Lovable**
+- Fluxo centralizado de entrada/saída de materiais  
+- Cadastro rápido de itens (nome, código, quantidade, unidade, fornecedor)  
+- Alertas visuais para estoque baixo/crítica  
+- Dashboard simples com totais e histórico de movimentações  
+- UI moderna e responsiva (pronta pra mobile também)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+**Objetivo**: Provar que consigo pegar um problema de negócio, prototipar rápido e entregar valor real — em vez de só "fazer o teste técnico e deletar".
 
-Changes made via Lovable will be committed automatically to this repo.
+## Tecnologias usadas
 
-**Use your preferred IDE**
+- **Frontend**: React + TypeScript + Vite  
+- **UI Components**: shadcn-ui (belos e acessíveis)  
+- **Estilo**: Tailwind CSS  
+- **Build & Dev**: Vite (rápido pra caralho)  
+- **Testes**: Vitest  
+- **Linting**: ESLint  
+- **Gerenciador**: Bun / npm  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+*(Se tu adicionou banco como localStorage, Supabase, Firebase ou algo de IA — tipo previsão de demanda via modelo simples — coloca aqui! Ex: + OpenAI API para sugestões de reorder)*
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Como rodar localmente (em 2 minutos)
 
-Follow these steps:
+```bash
+# 1. Clone o repo
+git clone https://github.com/denistein2/stock-whisperer.git
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# 2. Entre na pasta
+cd stock-whisperer
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 3. Instale as dependências (usa npm ou bun)
+npm install
+# ou
+bun install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Rode o servidor de dev
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+# ou
+bun dev
