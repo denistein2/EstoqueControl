@@ -5,7 +5,11 @@
 ![Status](https://img.shields.io/badge/status-live-brightgreen)
 ![Stack](https://img.shields.io/badge/stack-React%20%7C%20Supabase%20%7C%20TypeScript-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
-
+## Novidades v1.1 (05/03/2026)
+- Autenticação completa com Supabase Auth (registro, login, senha, confirmação por e-mail)
+- Integração CRUD de produtos com dados reais do usuário logado
+- RLS reforçado para multi-tenant
+- Demo ao vivo: https://steintechnology.com.br/projetos/estoquecontrol/
 🌐 **Demo ao vivo:** [steintechnology.com.br/projetos/estoquecontrol](https://steintechnology.com.br/projetos/estoquecontrol/)
 
 ---
