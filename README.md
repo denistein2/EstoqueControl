@@ -192,7 +192,7 @@ estoquecontrol/
 - [x] Ordem de produção com validação prévia de saldo
 - [x] Arquitetura multiempresa
 - [x] Deploy na Hostinger — [live](https://steintechnology.com.br/projetos/estoquecontrol/)
-- [ ] Conectar frontend ao Supabase real (substituir dados mock)
+- [x] Conectar frontend ao Supabase real (substituir dados mock)
 - [ ] Integração com Google Sheets via n8n
 - [ ] Relatório mensal automático
 - [ ] Inventário periódico
